@@ -445,8 +445,8 @@ ul { list-style: none; }
 
 .hero__desc {
   color: var(--text-secondary);
-  font-size: 1.0625rem;
-  max-width: 44ch;
+  font-size: 1rem;
+  max-width: 40ch;
   margin-bottom: 2.5rem;
   line-height: 1.8;
 }
@@ -1209,5 +1209,5 @@ ul { list-style: none; }
 @media (max-width: 480px) {
   .container { padding: 0 1.25rem; }
   .hero__avatar-ring { width: 260px; height: 260px; }
-  .hero__name { font-size: 2.5rem; }
+  .hero__name { font-size: 2rem; }
 }
