@@ -866,12 +866,12 @@
     navToggle.addEventListener('click', () => {
       const isOpen = mobileMenu.classList.toggle('open');
       navToggle.setAttribute('aria-expanded', String(isOpen));
-      mainNav.classList.add('scrolled');
+      mainNav.classList.add('scrolled', isOpen);
     });
 
     function closeMobileMenu() {
-      mobileMenu.classList.remove('open');
       mainNav.classList.remove('scrolled');
+      mobileMenu.classList.remove('open');
       navToggle.setAttribute('aria-expanded', 'false');
     }
 
