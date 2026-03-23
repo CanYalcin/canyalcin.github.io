@@ -278,11 +278,11 @@ ul { list-style: none; }
 
 /* Mobile hamburger */
 .nav__toggle {
-  display: none;
+  display: block;
   flex-direction: column;
   gap: 5px;
-  background: none;
-  border: none;
+  background: var(--text-primary);
+  border-radius: 2px;
   cursor: pointer;
   padding: 4px;
 }
