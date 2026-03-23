@@ -303,9 +303,11 @@ ul { list-style: none; }
   padding: 1rem 0 0.5rem;
   border-top: 1px solid var(--border);
   margin-top: 1rem;
+}
+.nav__mobile.open { 
+  display: flex; 
   background-color: #000000;
 }
-.nav__mobile.open { display: flex; }
 .nav__mobile a {
   font-size: 0.9375rem;
   font-weight: 500;
