@@ -164,8 +164,6 @@ ul { list-style: none; }
   right: 0;
   z-index: 1000;
   padding: 1.5rem 0;
-  background: rgba(6, 8, 15, 0.85);
-  border-bottom: 1px solid var(--border);
   transition: background 0.4s ease, padding 0.4s ease, backdrop-filter 0.4s ease;
 }
 .nav.scrolled {
@@ -299,6 +297,8 @@ ul { list-style: none; }
 
 /* Mobile menu */
 .nav__mobile {
+  background: rgba(6, 8, 15, 0.85);
+  backdrop-filter: blur(18px);
   display: none;
   flex-direction: column;
   gap: 0.25rem;
