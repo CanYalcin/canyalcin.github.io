@@ -687,6 +687,12 @@ ul { list-style: none; }
 .skill-chip--accent {
   border-color: rgba(34,211,238,0.35);
   color: var(--accent-cyan);
+}.skill-chip--accentgame {
+  border-color: rgba(70, 212, 125, 0.35);
+  color: var(--accent-cyan);
+}.skill-chip--accentxr {
+  border-color: rgba(178, 212, 99, 0.35);
+  color: var(--accent-cyan);
 }
 
 /* About right: timeline/achievements */
