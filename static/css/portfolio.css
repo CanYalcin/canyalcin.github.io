@@ -297,8 +297,6 @@ ul { list-style: none; }
 
 /* Mobile menu */
 .nav__mobile {
-  background: rgba(6, 8, 15, 0.85);
-  backdrop-filter: blur(18px);
   display: none;
   flex-direction: column;
   gap: 0.25rem;
