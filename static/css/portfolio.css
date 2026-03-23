@@ -164,6 +164,8 @@ ul { list-style: none; }
   right: 0;
   z-index: 1000;
   padding: 1.5rem 0;
+  background: rgba(6, 8, 15, 0.85);
+  border-bottom: 1px solid var(--border);
   transition: background 0.4s ease, padding 0.4s ease, backdrop-filter 0.4s ease;
 }
 .nav.scrolled {
@@ -278,11 +280,11 @@ ul { list-style: none; }
 
 /* Mobile hamburger */
 .nav__toggle {
-  display: block;
+  display: none;
   flex-direction: column;
   gap: 5px;
-  background: var(--text-primary);
-  border-radius: 2px;
+  background: none;
+  border: none;
   cursor: pointer;
   padding: 4px;
 }
@@ -304,10 +306,7 @@ ul { list-style: none; }
   border-top: 1px solid var(--border);
   margin-top: 1rem;
 }
-.nav__mobile.open { 
-  display: flex; 
-  background-color: #000000;
-}
+.nav__mobile.open { display: flex; }
 .nav__mobile a {
   font-size: 0.9375rem;
   font-weight: 500;
